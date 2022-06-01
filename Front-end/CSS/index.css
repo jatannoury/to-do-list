@@ -1,0 +1,10 @@
+
+.white-container{
+    border:1px solid black;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #FFF9F6;
+    font-family: sans-serif;
+}
