@@ -3,21 +3,58 @@
 <head>
     <link rel="stylesheet" href="../css/index.css">
     <title>To-do</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 <body>
     <div class="white-container">
         <h1 class="title">Lists</h1>
         <div class="add_to_do">
-            <input type="text" placeholder="New list" class="left_section">
-            <button class="right_section">+ Add</button>
-        </div>
-        <div class="add_to_do search">
-            <input type="text" placeholder="Search" class="left_section">
-            <button class="right_section"><ion-icon name="search"></ion-icon></button>
+            <input type="text " placeholder="Add New Note Title" class="titlee left_section">
+
         </div>
         
+        <div class="add_to_do">
+            <input type="text" placeholder="Description" class="Description left_section">
 
+        </div>
+        <div class="add_to_do">
+            <input type="text" placeholder="Point" class="Point left_section">
+
+        </div>
+      
+        <button id="btn" type="button">Add</button> 
+        <div class="add_to_do search">
+            <input type="text" placeholder="Search" class="bar left_section">
+            <button class="Search right_section"><ion-icon name="search"></ion-icon></button>
+        </div>
+        <div class="to_be_completed">
+            <h1>Your Current Tasks</h1>
+        </div>
+        <div id="append"></div>
+        <div class="container">
+            <div class="title"></div>
+            <div class="number"></div>
+            <div class="Date"></div>
+            <div class="id"></div>
+            <div class="sub-container">
+                <input type="checkbox" name="checkbox" class="check">
+            <span class="checkmark"></span>
+            </div>
+        </div>
+        
+        <div class="to_be_completed completed">
+            <h1>Completed!</h1>
+        </div>
+        <div id="append_completed"></div>
+        <div class="container done">
+            <div class="sub-container">
+            <span class="checkmark  gg"> </span>
+            </div>
+        </div>
+        
+        
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="../JS/TO_DO.js"></script>
 </body>
 </html>

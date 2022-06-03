@@ -25,6 +25,7 @@
     padding-bottom: 2%;
     padding-left: 0.5%;
     background-color: white;
+    margin-bottom:2%;
 }
 
 .right_section{
@@ -36,6 +37,7 @@
    color:grey;
    
 }
+
 .left_section{
     font-size: 120%;
     margin-left:3%;
@@ -46,4 +48,78 @@
 
 .search{
     margin-top:2% ;
+}
+
+.to_be_completed{
+    border:1px solid red ;
+    background-color: rgb(123, 49, 49);
+    margin-left:3%;
+    margin-right:3%;
+    margin-top:4%;
+    border-radius:15px;
+    /* padding-top: 1%;
+    padding-bottom: 3%; */
+    font-weight:700;
+    font-family: sans-serif;
+    color:white;
+    /* font-size:90%; */
+
+}
+
+.container{
+    margin-top:5%;
+    border: 1px solid black;
+    margin-left:5%;
+    margin-right:5%;
+    border-radius:10px;
+    background-color:white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:125%;
+    padding-top: 2%;
+    
+}
+
+.sub-container{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 1%;
+}
+
+.completed{
+    background-color:grey;
+    border:1px solid black;
+}
+
+.complete{
+    padding-bottom: 0%;
+}
+
+.gg{
+    text-decoration:line-through;
+    color: grey;
+
+}
+
+
+.container:hover{
+    transform: scale(1.05); 
+    box-shadow: 0 0 2px 2px red;
+}
+
+.done:hover{
+    box-shadow: 0 0 2px 2px grey;
+}
+
+.done{
+    margin-bottom:2%;
+}
+
+#btn{
+    margin-bottom: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-radius:10px;
+    font-size:120%;
 }
